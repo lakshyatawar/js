@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object</title>
+</head>
+<body>
+
+    <!-- -----------------Literal object ---------------------- -->
+     
+    <!-- <script>
+        const emp =
+        {
+            name:"Lakshya",
+            age:20,
+            salary:120000
+        };
+
+        console.log(emp);
+        document.write  (emp.name + "<br>" + emp.age + "<br>" + emp.salary);
+
+    </script> -->
+
+       <!-- -----------------instance------------------------- -->
+
+       <!-- <script type="text/javascript">
+           
+           const emp = new Object();
+
+           emp.name ="Lakshya";
+           emp.age = 19;
+           emp.salary =200000;
+
+           console.log(emp);
+
+       </script> -->
+ 
+    <!-- ----------------------CRUD opreation----------------------- -->
+
+<!--     <button onclick="update()"> Change </button>
+    <button onclick="insert()">Insert</button>
+   <button onclick="del()">Delete</button>
+
+
+    <h1 id="a">  </h1>
+
+    <h1 id="b">   </h1>
+
+    <h1 id="c">   </h1>
+
+
+    <script type="text/javascript">
+
+        var person = {
+             name : "Ravi",
+             age : 40,
+             salary : 1500000
+        }
+
+        function update()
+        {
+            person.name = "Lakshya"
+            document.getElementById('a').innerHTML = person.name;
+        }
+
+        function insert()
+        {
+            person.nat = "IND";
+            document.getElementById('b').innerHTML = person.nat;
+        }
+
+        function del()
+        {
+            delete person.age; 
+            document.getElementById('c').innerHTML = person.age="" ;  
+       }
+
+
+        document.getElementById('a').innerHTML = person.name;
+        document.getElementById('b').innerHTML = person.nat;
+        document.getElementById('c').innerHTML = person.age;
+        
+
+    </script> -->
+
+    <!-- -------------------------------------------------- -->
+
+    <script type="text/javascript">
+        
+        var person = {
+            name:"rizvan",
+            age : 19,
+            salary : 10000
+         }
+
+         for(let key in person)
+         {
+            document.write("<br>" + key + ":" + person[key])
+         }
+    </script>
+
+
+
+</body>
+</html>
